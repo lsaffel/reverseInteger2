@@ -22,6 +22,6 @@ def reverseinteger(num):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(reverseinteger(1234))
-    print(reverseinteger(-1234))
-    print(reverseinteger(100))
+    print(reverseinteger(1234))    # prints 4321
+    print(reverseinteger(-1234))    # prints -4321
+    print(reverseinteger(100))    # Note. This one prints 1, not 001
